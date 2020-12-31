@@ -1,0 +1,3 @@
+Bundle-Name: WebSight Fragments Registry
+Bundle-License: GNU AGPLv3
+Sling-Model-Classes: pl.ds.websight.fragments.registry.impl.GetWebFragmentsRestModel

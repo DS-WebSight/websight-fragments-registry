@@ -1,0 +1,12 @@
+{
+  "rootDir": "/apps/",
+  "aliases": {
+    "react": "websight-atlaskit-esm/web-resources/react.js",
+    "react-dom": "websight-atlaskit-esm/web-resources/react-dom.js",
+    "websight-rest-atlaskit-client/RestClient":  "websight-rest-atlaskit-client/web-resources/js/RestClient.js"
+  },
+  "devAliases": {
+    "websight-atlaskit-esm": "http://localhost:8080/apps/websight-atlaskit-esm",
+    "websight-rest-atlaskit-client": "http://localhost:8080/apps/websight-rest-atlaskit-client"
+  }
+}
