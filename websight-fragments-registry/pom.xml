@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>pl.ds.websight</groupId>
     <artifactId>websight-bundle-parent</artifactId>
-    <version>2</version>
-    <relativePath></relativePath>
+    <version>4</version>
+    <relativePath />
   </parent>
   <artifactId>websight-fragments-registry</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <name>WebSight Fragments Registry</name>
   <description>Fragment Registry is a module responsible for bundles state validation. If some bundles is missing
 or not active, then its functionality (ex. Groovy Console) is removed from user interface.
@@ -37,6 +36,7 @@ This module provides backend service.</description>
     <connection>scm:git:ssh://github.com:DS-WebSight/websight-fragments-registry.git</connection>
     <developerConnection>scm:git:ssh://github.com:DS-WebSight/websight-fragments-registry.git</developerConnection>
     <url>https://github.com/DS-WebSight/websight-fragments-registry</url>
+    <tag>1.0.2</tag>
   </scm>
   <dependencies>
     <dependency>
@@ -91,14 +91,6 @@ This module provides backend service.</description>
         <artifactId>bnd-baseline-maven-plugin</artifactId>
         <configuration>
           <skip>true</skip>
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>license-maven-plugin</artifactId>
-        <configuration>
-          <licenseName>agpl_v3</licenseName>
-          <licenseFile>${project.basedir}/LICENSE</licenseFile>
         </configuration>
       </plugin>
     </plugins>
